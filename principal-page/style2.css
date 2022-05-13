@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background: url("../bg.png");
+}
+
+.firstPart {
+    background-color: #595959;
+    display: flex;
+}
+
+#principalImage {
+    width: 450px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.principalPart {
+    margin: 15px;
+}
+
+#classes, #resources {
+    cursor: pointer;
+    padding: 50px;
+    font-size: 150px;
+    background-color: #7b7b7b;
+    margin: 50px;
+    border: 10px solid #525252;
+    border-radius: 50px;
+    transition: all ease 250ms;
+}
+
+#classes:hover, #resources:hover {
+    transform: scale(0.9);
+    color: rgb(80, 80, 80);
+    border: 10px solid #000;
+}
+
+#classes:active, #resources:active {
+    transform: scale(1.15);
+}
+
+#title {
+    font-size: 80px;
+}
+
+#subtitle {
+    font-size: 22.5px;
+}
+
+#logOutBtn {
+    cursor: pointer;
+    font-size: 28px;
+    border: none;
+    background-color: #595959;
+    padding: 0px;
+    margin-left: 1000px;
+    text-decoration:underline;
+}
+
+body::-webkit-scrollbar {
+    width: 12.5px;
+    background-color: #8a8989;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #595959; 
+    border-radius: 50px;   
+}
+
+body::-webkit-scrollbar-corner {
+    width: 10px;
+    background-color: rgb(35, 35, 35);
+}
